@@ -1,7 +1,10 @@
 body{
-    background-color: #000;
-    color: white;
+    background-color: #6B77DB;
+    color: #f6f6f6;
 }
 strong{
-    color: aqua;
+   color: red;
+}
+.strong-titulo{
+    color: #6BDBD5;
 }
