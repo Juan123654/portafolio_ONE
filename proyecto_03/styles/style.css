@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #6B77DB;
+    background-color: black;
     color: #f6f6f6;
     height: 100vh;
     box-sizing: border-box;
@@ -41,16 +41,25 @@ strong{
 .presentacion__enlaces{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.presentacion__enlaces_subtitulo{
+    font-family: "Krona One", serif;
+    font-size: 24px;
+    font-weight: 400;
+
 }
 .presentacion_enlaces_link{
-    width: 280px;
-    background-color: #22D4FD;
+    width: 378px;
     text-align: center;
     padding: 21.5px 0;
-    border-radius: 16px;
+    border-radius: 8px;
     font-family: "Montserrat", serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
-    color: black;
+    color: #f6f6f6;
+    border: 2px solid #6BDBD5;
 }
