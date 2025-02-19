@@ -10,6 +10,23 @@ body{
     color: #f6f6f6;
     box-sizing: border-box;
 }
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+.header__menu__link{
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    color: #6BDBD5;
+    text-decoration: none;
+}
+
 strong{
    color: red;
 }
@@ -22,7 +39,7 @@ strong{
 .presentacion{
     display: flex;
     align-items: center;
-    margin: 10% 15%;
+    padding: 7% 15%;
     justify-content: space-between;
 }
 .presentacion__contenido{
