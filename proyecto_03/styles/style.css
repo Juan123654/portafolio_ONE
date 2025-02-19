@@ -8,7 +8,6 @@
 body{
     background-color: black;
     color: #f6f6f6;
-    height: 100vh;
     box-sizing: border-box;
 }
 strong{
@@ -16,6 +15,9 @@ strong{
 }
 .strong-titulo{
     color: #6BDBD5;
+}
+.strong__nombre:hover{
+    color: aqua;
 }
 .presentacion{
     display: flex;
@@ -64,8 +66,21 @@ strong{
     border: 2px solid #6BDBD5;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
 }
 .presentacion_enlaces_link:hover{
     background-color: #272727;
+}
+.presentacion__imagen{
+    width: 450px;
+    height: 500px;
+    border-radius: 15px;
+}
+.footer{
+    background-color: #22DBD5;
+    padding: 24px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Montserrat", serif;
 }
