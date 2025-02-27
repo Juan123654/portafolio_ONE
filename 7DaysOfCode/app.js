@@ -8,7 +8,7 @@ console.log( " \t\r\n" == 0 );
 
 console.log( ' ' == 0 );
 */
-//ejercicio
+//ejercicio 1
 let numeroUn = 1
 
 let stringUn = '1'
